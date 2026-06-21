@@ -99,6 +99,7 @@ var npmAgentPackages = map[string]string{
 	"@amazon-q/amazon-q-cli":         "amazon-q",
 	"gptme":                          "gptme",
 	"opencoder":                      "opencoder",
+	"opencode":                       "opencode",
 	"@anthropic-ai/claude-agent-sdk": "claude-agent",
 	"@gemini-cli/gemini":             "gemini",
 	"@tabby-ml/tabby":                "tabby",
@@ -287,7 +288,7 @@ func detectGoInstall() []AgentCLI {
 
 var pathAgentCmds = []string{
 	"claude", "codex", "pi", "reasonix", "goose", "continue",
-	"amazon-q", "aider", "gptme", "opencoder", "gemini",
+	"amazon-q", "aider", "gptme", "opencoder", "opencode", "gemini",
 	"tabby", "interpreter", "claude-agent", "warp",
 	"cursor-agent", "devin", "qwen", "open-interpreter",
 	"cody", "cody-cli", "deepseek",

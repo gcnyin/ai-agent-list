@@ -48,6 +48,7 @@ go build -o ai-agent-list .
 - `aider` — aider (pip/cargo)
 - `gptme` — gptme (npm/pip)
 - `opencoder` — opencoder (npm)
+- `opencode` — @opencode-ai/cli
 - `gemini` — @gemini-cli/gemini
 - `tabby` — @tabby-ml/tabby
 - `interpreter` — open-interpreter (pip/cargo)
